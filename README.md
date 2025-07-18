@@ -295,68 +295,6 @@ class MotionDetector:
 
 ---
 
-## 🗂️ **Project Structure**
-
-```
-long-range-drone-detection/
-├── 📁 src/
-│   ├── detection/
-│   │   ├── yolo_detector.py          # YOLOv5 detection engine
-│   │   ├── tile_processor.py         # Adaptive tiling system
-│   │   └── model_optimizer.py        # Model optimization utilities
-│   ├── tracking/
-│   │   ├── deep_sort_tracker.py      # DeepSORT implementation
-│   │   ├── kalman_filter.py          # Kalman filtering for tracking
-│   │   └── appearance_extractor.py   # Feature extraction for tracking
-│   ├── motion/
-│   │   ├── background_subtractor.py  # MOG2 background subtraction
-│   │   ├── optical_flow.py           # Farneback optical flow
-│   │   └── motion_analyzer.py        # Motion-guided tile selection
-│   ├── optimization/
-│   │   ├── multi_gpu_manager.py      # Multi-GPU resource management
-│   │   ├── memory_optimizer.py       # Memory usage optimization
-│   │   └── performance_monitor.py    # Real-time performance tracking
-│   └── utils/
-│       ├── visualization.py          # Real-time display utilities
-│       ├── data_loader.py            # Data loading and preprocessing
-│       └── evaluation_metrics.py     # Performance evaluation tools
-├── 📁 models/
-│   ├── best.pt                       # Custom-trained YOLOv5 model
-│   ├── deepsort_weights/             # DeepSORT model weights
-│   └── training_configs/             # Model training configurations
-├── 📁 config/
-│   ├── system_config.py              # System configuration parameters
-│   ├── detection_config.py           # Detection-specific settings
-│   ├── tracking_config.py            # Tracking configuration
-│   └── logging_config.py             # Logging and monitoring setup
-├── 📁 data/
-│   ├── datasets/                     # Training and validation datasets
-│   ├── samples/                      # Sample videos and images
-│   └── annotations/                  # Ground truth annotations
-├── 📁 experiments/
-│   ├── training_scripts/             # Model training scripts
-│   ├── evaluation_scripts/           # Performance evaluation scripts
-│   └── benchmark_results/            # Experimental results and analysis
-├── 📁 docs/
-│   ├── methodology.md                # Detailed methodology documentation
-│   ├── implementation_guide.md       # Implementation details
-│   ├── performance_analysis.md       # Performance analysis and results
-│   └── api_documentation.md          # API reference and usage guide
-├── 📁 tests/
-│   ├── test_detection.py             # Detection system tests
-│   ├── test_tracking.py              # Tracking system tests
-│   ├── test_integration.py           # Integration tests
-│   └── test_performance.py           # Performance benchmark tests
-├── 📄 requirements.txt               # Python dependencies
-├── 📄 requirements-dev.txt           # Development dependencies
-├── 📄 main.py                        # Main application entry point
-├── 📄 train_model.py                 # Model training script
-├── 📄 evaluate_system.py             # System evaluation script
-└── 📄 README.md                      # Project documentation
-```
-
----
-
 ## 🔧 **Advanced Configuration**
 
 ### ⚙️ **System Parameters**
@@ -472,7 +410,7 @@ We welcome contributions from the research community! Please follow these guidel
 ### 🔬 **Development Process**
 ```bash
 # Fork the repository
-git clone https://github.com/yourusername/long-range-drone-detection.git
+git clone https://github.com/AbubakarZubair/Small-Drone-Detection-A-Deep-Learning-Approach-to-Remote-Sensing-and-Surveillance.git
 
 # Create research branch
 git checkout -b research/new-algorithm
@@ -515,12 +453,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 📚 **Citation**
 If you use this work in your research, please cite:
 ```bibtex
-@misc{long_range_drone_detection,
+@misc{Small Drone Detection,
   title={ Small Drone Detection: A Deep Learning Approach to Remote Sensing and Surveillance},
-  author={Your Name},
-  year={2024},
+  author={Abubakkar Zubair},
+  year={2025},
   publisher={GitHub},
-  url={https://github.com/yourusername/long-range-drone-detection}
+  url={https://github.com/AbubakarZubair/Small-Drone-Detection-A-Deep-Learning-Approach-to-Remote-Sensing-and-Surveillance}
 }
 ```
 
@@ -549,9 +487,9 @@ If you use this work in your research, please cite:
 ## 📞 **Contact & Support**
 
 ### 📧 **Research Inquiries**
-- **Primary Contact**: [your.email@institution.edu]
-- **Research Group**: [research.group@institution.edu]
-- **Collaboration**: [collaboration@institution.edu]
+- **Primary Contact**: [(abubakarkhan17110@gmail.com)]
+- **Research at University**: [(https://www.kicsit.edu.pk/)]
+-
 
 ### 🔗 **Project Links**
 - **GitHub Repository**: [Repository URL]
@@ -560,9 +498,9 @@ If you use this work in your research, please cite:
 - **Demo Video**: [Demo URL]
 
 ### 💬 **Community Support**
-- **Issues**: [GitHub Issues](https://github.com/yourusername/long-range-drone-detection/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/long-range-drone-detection/discussions)
-- **Research Forum**: [Academic Forum Link]
+- **Issues**: [GitHub Issues](https://github.com/AbubakarZubair/Small-Drone-Detection-A-Deep-Learning-Approach-to-Remote-Sensing-and-Surveillance)
+- **Discussions**: [GitHub Discussions](abubakarkhan17110@gmail.com)
+
 
 ---
 
