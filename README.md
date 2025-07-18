@@ -78,11 +78,6 @@ Our system successfully processes 4K surveillance videos and generates annotated
 ![Complex Detection](Fig%202.%20Detection%20and%20tracking%20using%20Farneback%20optical%20flow%20with%20tilings.png)  
 *Tracking drone using Farneback optical flow with tiling*
 
-### Frame 5: Tracking Overlay
-![Comparative Analysis](Fig%203.%20Comparative%20Analysis%20of%20Detection%20Strategies.png)  
-*Comparative Analysis of Detection Strategies*
-
-
 #### 📁 **Code for Adding Output Images**
 ```python
 # Add this code to your main processing script to save output frames
@@ -209,7 +204,9 @@ def process_video_with_output_saving(video_path, model_path, save_interval=50):
 | **Optimized (4K)** | 20-25 | 95-98% | 5-7GB per GPU |
 
 ---
-
+### Frame 5: Comparative Analysis
+![Comparative Analysis](Fig%203.%20Comparative%20Analysis%20of%20Detection%20Strategies.png)  
+*Comparative Analysis of Detection Strategies*
 ## 🚀 **Getting Started**
 
 ### 📋 **Prerequisites**
@@ -413,7 +410,7 @@ If you use this work in your research, please cite:
 
 ### 📧 **Research Inquiries**
 - **Primary Contact**: [abubakarkhan17110@gmail.com]
-- **Research Institution**: [KICSIT University](https://www.kicsit.edu.pk/)
+- **Research Institution**: [KICSIT](https://www.kicsit.edu.pk/)
 
 ### 🔗 **Project Links**
 - **GitHub Repository**: [https://github.com/AbubakarZubair/Small-Drone-Detection-A-Deep-Learning-Approach-to-Remote-Sensing-and-Surveillance]
