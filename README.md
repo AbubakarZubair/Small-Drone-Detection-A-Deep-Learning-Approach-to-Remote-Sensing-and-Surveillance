@@ -54,32 +54,32 @@ A cutting-edge computer vision research project implementing state-of-the-art de
 
 ## 📊 **4K Video Processing Results**
 
-### 🎥 **Output Examples**
+## 🎥 **Output Examples**
 
 Our system successfully processes 4K surveillance videos and generates annotated output with detected and tracked drone. Below are sample results from our processing pipeline:
 
-#### 📸 **Sample Detection Results**
+## 📸 **Sample Detection Results**
 
 ## Detection Output Gallery
 
-### Frame 1:Drone Detection
-![Detection Example 1](Fig 1. Detection and tracking using MOG2 with tiling.png)
+### Frame 1: Drone Detection
+![Detection Example 1](Fig%201.%20Detection%20and%20tracking%20using%20MOG2%20with%20tiling.png)  
 *4K frame showing successful detection of small drone with confidence scores and FPS*
 
 ### Frame 2: Drone Tracking Window
-![Detection Example 2](Fig 1. Detection and tracking using MOG2 with tilings.png)
+![Detection Example 2](Fig%201.%20Detection%20and%20tracking%20using%20MOG2%20with%20tilings.png)  
 *Demonstration of small drone tracking in 4K resolution*
 
-### Frame 3: Optical 
-![Tracking Example 1](Fig 2. Detection and tracking using Farneback optical flow with tiling.png)
+### Frame 3: Optical
+![Tracking Example 1](Fig%202.%20Detection%20and%20tracking%20using%20Farneback%20optical%20flow%20with%20tiling.png)  
 *Detection using Farneback optical flow with tiling*
 
 ### Frame 4: Complex Scenario
-![Complex Detection](Fig 2. Detection and tracking using Farneback optical flow with tilings.png)
+![Complex Detection](Fig%202.%20Detection%20and%20tracking%20using%20Farneback%20optical%20flow%20with%20tilings.png)  
 *Tracking drone using Farneback optical flow with tiling*
 
 ### Frame 5: Tracking Overlay
-![Fig 3. Comparative Analysis of Detection Strategies.png)
+![Comparative Analysis](Fig%203.%20Comparative%20Analysis%20of%20Detection%20Strategies.png)  
 *Comparative Analysis of Detection Strategies*
 
 
