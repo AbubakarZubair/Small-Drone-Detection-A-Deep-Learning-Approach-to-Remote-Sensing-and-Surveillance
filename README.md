@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 [![Research](https://img.shields.io/badge/Research-Surveillance-brightgreen.svg)](https://github.com)
 
-> **Advanced Multi-GPU Deep Learning System for Long-Range Detection and Tracking of Small Unmanned Aerial Vehicles (UAVs) in High-Resolution Video**
+> **Advanced Multi-GPU Deep Learning System for Long-Range Detection and Tracking of Small Unmanned Aerial Vehicle (UAV) in High-Resolution Video**
 
 A cutting-edge computer vision research project implementing state-of-the-art deep learning techniques for autonomous drone detection and tracking in 4K video surveillance applications. This system combines YOLOv5 object detection with DeepSORT tracking algorithms, optimized for high-resolution video processing using multi-GPU parallel processing.
 
@@ -18,7 +18,7 @@ A cutting-edge computer vision research project implementing state-of-the-art de
 
 ### 🎯 **Research Objectives**
 - **4K Video Processing**: High-resolution drone detection and tracking in 4K video streams
-- **Multi-Object Tracking**: Persistent tracking of multiple UAVs across extended video sequences
+- **Single-Object Tracking**: Persistent tracking of multiple UAV across extended video sequences
 - **Performance Optimization**: Multi-GPU implementation for enhanced processing speed and efficiency
 - **Practical Application**: Integration with recorded surveillance video analysis systems
 
@@ -39,7 +39,7 @@ A cutting-edge computer vision research project implementing state-of-the-art de
 - **High Accuracy**: 95%+ precision in drone identification and classification
 
 ### 🎯 **Intelligent Tracking Framework**
-- **DeepSORT Implementation**: Robust multi-object tracking with appearance embeddings
+- **DeepSORT Implementation**: Robust Single-Object tracking with appearance embeddings
 - **Kalman Filtering**: Predictive tracking with motion estimation across video frames
 - **Identity Persistence**: Maintains object identity across occlusions and frame gaps
 - **Tracking Consistency**: 90%+ accuracy in object identity maintenance
@@ -56,7 +56,7 @@ A cutting-edge computer vision research project implementing state-of-the-art de
 
 ### 🎥 **Output Examples**
 
-Our system successfully processes 4K surveillance videos and generates annotated output with detected and tracked drones. Below are sample results from our processing pipeline:
+Our system successfully processes 4K surveillance videos and generates annotated output with detected and tracked drone. Below are sample results from our processing pipeline:
 
 #### 📸 **Sample Detection Results**
 ```markdown
@@ -64,7 +64,7 @@ Our system successfully processes 4K surveillance videos and generates annotated
 
 ### Frame 1: Multiple Drone Detection
 ![Detection Example 1](output_images/detection_frame_001.jpg)
-*4K frame showing successful detection of multiple small drones with confidence scores*
+*4K frame showing successful detection of multiple small drone with confidence scores*
 
 ### Frame 2: Long-Range Detection
 ![Detection Example 2](output_images/detection_frame_045.jpg)
@@ -72,7 +72,7 @@ Our system successfully processes 4K surveillance videos and generates annotated
 
 ### Frame 3: Tracking Continuity
 ![Tracking Example 1](output_images/tracking_frame_120.jpg)
-*Multi-object tracking maintaining identity across frame sequences*
+*Single-Object tracking maintaining identity across frame sequences*
 
 ### Frame 4: Complex Scenario
 ![Complex Detection](output_images/detection_frame_200.jpg)
@@ -188,7 +188,7 @@ def process_video_with_output_saving(video_path, model_path, save_interval=50):
 | **Input Resolution** | 3840×2160 | 4K video processing capability |
 | **Processing Speed** | 15-25 FPS | 4K video processing rate |
 | **Precision** | 96.2% | Accurate positive drone detections |
-| **Recall** | 94.8% | Successful detection of present drones |
+| **Recall** | 94.8% | Successful detection of present drone |
 | **F1-Score** | 95.5% | Harmonic mean of precision and recall |
 | **mAP@0.5** | 92.3% | Mean Average Precision at IoU 0.5 |
 
@@ -292,7 +292,7 @@ class DroneDetector4K:
         # 4K specific settings
         self.input_size = (3840, 2160)
         
-    def detect_drones_4k(self, frame_tiles):
+    def detect_drone_4k(self, frame_tiles):
         detections = []
         for tile in frame_tiles:
             # Process each tile from 4K frame
