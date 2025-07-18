@@ -59,7 +59,7 @@ A cutting-edge computer vision research project implementing state-of-the-art de
 Our system successfully processes 4K surveillance videos and generates annotated output with detected and tracked drone. Below are sample results from our processing pipeline:
 
 #### 📸 **Sample Detection Results**
-```markdown
+
 ## Detection Output Gallery
 
 ### Frame 1:Drone Detection
@@ -81,7 +81,7 @@ Our system successfully processes 4K surveillance videos and generates annotated
 ### Frame 5: Tracking Overlay
 ![Fig 3. Comparative Analysis of Detection Strategies.png)
 *Comparative Analysis of Detection Strategies*
-```
+
 
 #### 📁 **Code for Adding Output Images**
 ```python
