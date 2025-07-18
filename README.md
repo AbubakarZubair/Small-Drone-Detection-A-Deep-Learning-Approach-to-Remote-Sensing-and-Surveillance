@@ -62,25 +62,25 @@ Our system successfully processes 4K surveillance videos and generates annotated
 ```markdown
 ## Detection Output Gallery
 
-### Frame 1: Multiple Drone Detection
-![Detection Example 1](output_images/detection_frame_001.jpg)
-*4K frame showing successful detection of multiple small drone with confidence scores*
+### Frame 1:Drone Detection
+![Detection Example 1](Fig 1. Detection and tracking using MOG2 with tiling.png)
+*4K frame showing successful detection of small drone with confidence scores and FPS*
 
-### Frame 2: Long-Range Detection
-![Detection Example 2](output_images/detection_frame_045.jpg)
-*Demonstration of long-range drone detection capabilities in 4K resolution*
+### Frame 2: Drone Tracking Window
+![Detection Example 2](Fig 1. Detection and tracking using MOG2 with tilings.png)
+*Demonstration of small drone tracking in 4K resolution*
 
-### Frame 3: Tracking Continuity
-![Tracking Example 1](output_images/tracking_frame_120.jpg)
-*Single-Object tracking maintaining identity across frame sequences*
+### Frame 3: Optical 
+![Tracking Example 1](Fig 2. Detection and tracking using Farneback optical flow with tiling.png)
+*Detection using Farneback optical flow with tiling*
 
 ### Frame 4: Complex Scenario
-![Complex Detection](output_images/detection_frame_200.jpg)
-*Detection performance in challenging lighting and background conditions*
+![Complex Detection](Fig 2. Detection and tracking using Farneback optical flow with tilings.png)
+*Tracking drone using Farneback optical flow with tiling*
 
 ### Frame 5: Tracking Overlay
-![Tracking Overlay](output_images/tracking_overlay_300.jpg)
-*Complete tracking visualization with trajectory paths and object IDs*
+![Fig 3. Comparative Analysis of Detection Strategies.png)
+*Comparative Analysis of Detection Strategies*
 ```
 
 #### 📁 **Code for Adding Output Images**
